@@ -154,10 +154,14 @@ main section {
 }
 
 .section4 {
-  
+  display: flex;
+  height: 600px;
 }
 
-
+.cube-wrapper {
+  position: relative;
+  width: 50%;
+}
 
 
 
@@ -175,6 +179,7 @@ footer {
 /*---------------------------------------------------------------------------------------------------*/
 #progress {
   /* background-color: #22ca3b; */
+  z-index: 55;
   position: fixed;
   bottom: 20px;
   right: 10px;

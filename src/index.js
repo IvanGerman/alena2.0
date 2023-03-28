@@ -2,7 +2,7 @@ import './index.html';
 import './index.scss';
 import '@babel/polyfill';
 
-import {swiper} from './modules/swiper';
+import {swiper, swiper2} from './modules/swiper';
 import picture from './assets/images/logo.png';
 
 
