@@ -106,6 +106,10 @@ module.exports = {
           }
         }
       },
+      {
+        test: /\.(?:mp3|wav|ogg|mp4)$/i,
+        type: 'asset/resource',
+      },
     ]
   }
 };

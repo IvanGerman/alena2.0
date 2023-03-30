@@ -142,11 +142,32 @@ main section {
  }
 
 .section1 {
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.play-audio-div, .pause-audio-div {
+  width: 10vw;
+  height: 18vh;
+  background-color: #c11c1c;
+  font-size: 2vw;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pause-audio-div {
+  background-color: #000000; 
+  color: #c11c1c;
 }
 
 .section2 {
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section3 {

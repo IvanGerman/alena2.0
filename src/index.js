@@ -4,6 +4,9 @@ import '@babel/polyfill';
 
 import {swiper, swiper2} from './modules/swiper';
 import picture from './assets/images/logo.png';
+import './modules/audio';
+import './modules/video';
+
 
 
 
