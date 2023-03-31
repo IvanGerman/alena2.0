@@ -171,7 +171,22 @@ main section {
 }
 
 .section3 {
-  
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.alkatra-text {
+  font-size: 2vw;
+  color: #c11cb1;
+  font-family: 'Alkatra';
+  margin: 0 auto;
+}
+
+.roboto-slab-text {
+  font-size: 3vw;
+  color: #4282e1;
+  font-family: 'Roboto Slab';
 }
 
 .section4 {
