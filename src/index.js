@@ -7,6 +7,7 @@ import './modules/audio';
 import './modules/video';
 import './modules/burgerMenu';
 import './modules/scrollTopBtn';
+import './modules/contactForm';
 
 
 
