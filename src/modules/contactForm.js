@@ -1,6 +1,8 @@
 const fname = document.getElementById('fname');
 const lname = document.getElementById('lname');
 const submit = document.getElementById('submit');
+const textareaForm = document.getElementById('text-data');
+
 
 submit.addEventListener('submit',(e)=>{
   e.preventDefault();
@@ -8,6 +10,8 @@ submit.addEventListener('submit',(e)=>{
   <h1>First Name: </h1>${fname.value}
   <br>
   <h1>Last Name: </h1>${lname.value}
+  <br>
+  <h2>Message: </h2>${textareaForm.value}
   `;
 
   Email.send({
